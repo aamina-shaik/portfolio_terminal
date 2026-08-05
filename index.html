@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aamina Shaik | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Inter:wght@400;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-links">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#education">EDUCATION</a>
+            <a href="#achievements">AWARDS</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1 class="hero-name" id="hero-name">Aamina Shaik</h1>
+        <p id="hero-sub">Full Stack Developer | B.Tech CSE '2026</p>
+    </section>
+    <div id="terminal-toggle" onclick="toggleTerminal()">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent-mint);">
+            <polyline points="4 17 10 11 4 5"></polyline>
+            <line x1="12" y1="19" x2="20" y2="19"></line>
+        </svg>
+    </div>
+
+    <div id="terminal-container">
+        <div class="terminal-header" id="terminal-header">
+            <div class="header-dots">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+            </div>
+            <span style="font-family: 'Space Mono'; font-size: 0.7rem; opacity: 0.7;">AAMINA_OS</span>
+        </div>
+        <div id="term-output">Welcome to Aamina_OS. Type 'help' to begin.</div>
+        <div class="term-input-line">
+            <span style="color: var(--accent-mint); font-family: 'Space Mono';">λ</span>
+            <input type="text" id="term-input" autocomplete="off" autofocus>
+        </div>
+    </div>
+    <section id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2 data-en="About Me">About Me</h2>
+                <p id="about-para"
+                    data-en="I'm a B.Tech student in Computer Science and Engineering at QIS College of Engineering and Technology, graduating in 2026. I love building things that live on the internet — whether that's a sleek interior design showcase or a smart job recommendation system. My toolkit includes Python, React, Flask, and MongoDB. I believe in clean code, playful design, and constant learning. When I'm not coding, you'll find me contributing to open source or practicing Japanese!">
+                    I'm a B.Tech student in Computer Science and Engineering at QIS College of Engineering and
+                    Technology, graduating in 2026. I love building things that live on the internet — whether that's a
+                    sleek interior design showcase or a smart job recommendation system. My toolkit includes Python,
+                    React, Flask, and MongoDB. I believe in clean code, playful design, and constant learning. When I'm
+                    not coding, you'll find me contributing to open source or practicing Japanese!
+                </p>
+
+                <div class="personal-details-grid">
+                    <div class="detail-item"><span class="detail-label">Name</span>Aamina Shaik</div>
+                    <div class="detail-item"><span class="detail-label">Gender</span>Female</div>
+                    <div class="detail-item"><span class="detail-label">Email</span>shaikaamina947@gmail.com</div>
+                    <div class="detail-item"><span class="detail-label">Phone</span>+91 7993464472</div>
+                    <div class="detail-item"><span class="detail-label">Location</span>Andhra Pradesh, India</div>
+                    <div class="detail-item"><span class="detail-label">Hobbies</span>Learning Japanese
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="about-image-wrapper">
+                <div class="profile-placeholder">
+                    [Photo Image Placement]
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 data-en="Technical Toolkit">Technical Toolkit</h2>
+        <div class="skills-wrapper">
+            <div class="skill-badge"><span>#</span> Python</div>
+            <div class="skill-badge"><span>#</span> Flask</div>
+            <div class="skill-badge"><span>#</span> React.js</div>
+            <div class="skill-badge"><span>#</span> MongoDB</div>
+            <div class="skill-badge"><span>#</span> SQL</div>
+            <div class="skill-badge"><span>#</span> JavaScript</div>
+            <div class="skill-badge"><span>#</span> HTML5/CSS3</div>
+            <div class="skill-badge"><span>#</span> Data Structures</div>
+            <div class="skill-badge"><span>#</span> UI/UX Design</div>
+            <div class="skill-badge"><span>#</span> Git/GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="project-header">
+            <h2 data-en="Selected Works">Selected Works</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="icon-box">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </svg>
+                </div>
+                <h3>Smart Job System</h3>
+                <p>An intelligent platform designed to bridge the gap between candidates and recruiters. It utilizes AI
+                    to analyze user resumes and LinkedIn profiles, providing personalized job recommendations and a
+                    roadmap for skill-gap identification.</p>
+                <div class="tech-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">React</span>
+                    <span class="tag">AI/ML</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="icon-box">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                        <line x1="16" y1="2" x2="16" y2="6" />
+                        <line x1="8" y1="2" x2="8" y2="6" />
+                        <line x1="3" y1="10" x2="21" y2="10" />
+                    </svg>
+                </div>
+                <h3>PackRight – Smart Packing List PWA</h3>
+                <p>An offline-first Progressive Web App (PWA) that helps users create reusable packing templates and
+                    manage trip-specific checklists with automatic local data storage. It features installable app
+                    support, offline access, real-time progress tracking, and a responsive interface for a seamless
+                    native app-like experience.</p>
+                <div class="tech-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">LocalStorage</span>
+                    <span class="tag">Service Worker</span>
+                    <span class="tag">PWA</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="icon-box">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                        <polyline points="9 22 9 12 15 12 15 22" />
+                    </svg>
+                </div>
+                <h3>Digital Closet – Personal Wardrobe Management Web Application</h3>
+                <p>A responsive web application that enables users to organize their digital wardrobe by uploading,
+                    categorizing, searching, and filtering clothing items. It includes a random outfit generator,
+                    favorite outfit management, and persistent client-side storage through the LocalStorage API,
+                    delivering a clean and intuitive user experience.</p>
+
+                <div class="tech-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">LocalStorage</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 data-en="Academic Journey">Academic Journey</h2>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                        <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2022 — 2026</span>
+                    <h3>B.Tech in Computer Science</h3>
+                    <p>QIS College of Engineering and Technology</p>
+                    <div class="grade-pill">CGPA: 7.81</div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2020 — 2022</span>
+                    <h3>Intermediate (MPC)</h3>
+                    <p>Narayana JR College</p>
+                    <div class="grade-pill">CGPA: 8.6</div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                        <polyline points="9 22 9 12 15 12 15 22" />
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Until 2020</span>
+                    <h3>High School Education</h3>
+                    <p>Montessori High School</p>
+                    <div class="grade-pill">CGPA: 10</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="achievements">
+        <h2 data-en="Awards">Awards & Honors</h2>
+
+        <div class="gallery-container">
+            <div class="award-card">
+                <div class="award-date">APR - JUN 2025</div>
+                <div class="award-icon-circle">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 15l-2 5L9 9l11 4-5 2zm0 0l4 4" />
+                        <path d="M2 12h5M12 2v5M17 7l-4 4M7 17l4-4" />
+                    </svg>
+                </div>
+                <div class="award-info">
+                    <h3>Python Full Stack Developer Internship</h3>
+                    <p>Certified by AICTE and EduSkills. Completed a 10-week intensive virtual program gaining hands-on
+                        experience in building scalable web architectures.</p>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="award-date">MAY 2025</div>
+                <div class="award-icon-circle">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                        <line x1="12" y1="22.08" x2="12" y2="12" />
+                    </svg>
+                </div>
+                <div class="award-info">
+                    <h3>Generative AI Model Workshop</h3>
+                    <p>Conducted by NxtWave. Built a working Generative AI model under industry guidance, strengthening
+                        foundations in neural networks and prompt engineering.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+
+        <h2 data-en="Get In Touch">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-visual">
+                <h2 data-en="Connect" data-jp="接続する">Connect</h2>
+                <div class="status-line">> Location: Andhra Pradesh, India</div>
+                <div class="status-line">> Status: Open for Opportunities</div>
+                <div class="status-line">> Response Time: < 24 Hours</div>
+                        <div class="status-line">> Looking for: Full Stack Roles <span class="cursor"></span></div>
+                </div>
+
+                <div class="contact-methods">
+                    <a href="mailto:shaikaamina947@gmail.com" class="contact-btn">
+                        <div class="btn-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </div>
+                        <div class="btn-text">
+                            <span>Send an Email</span>
+                            <strong>shaikaamina947@gmail.com</strong>
+                        </div>
+                    </a>
+
+                    <a href="tel:+917993464472" class="contact-btn">
+                        <div class="btn-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                        </div>
+                        <div class="btn-text">
+                            <span>Direct Call</span>
+                            <strong>+91 7993464472</strong>
+                        </div>
+                    </a>
+
+                    <a href="https://linkedin.com/in/aamina-shaik" target="_blank" class="contact-btn">
+                        <div class="btn-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                <rect x="2" y="9" width="4" height="12" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                        </div>
+                        <div class="btn-text">
+                            <span>Professional Network</span>
+                            <strong>linkedin.com/in/aamina-shaik</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+    </section>
+    <div class="footer-note">
+        © 2026 AAMINA SHAIK | BUILT WITH CODE & CONSTANT LEARNING
+    </div>
+
+    <!-- <div id="terminal">
+        <div id="term-output">aamina_os v1.0.0. Type 'help' to start.</div>
+        <div style="display: flex;"><span>>&nbsp;</span><input type="text" id="term-input"></div>
+    </div> -->
+<script src="script.js"></script>
+</body>
+
+</html>
