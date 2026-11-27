@@ -73,12 +73,6 @@ Then visit:
 http://localhost:8000
 ```
 
-## 📬 Contact
 
-- **Email:** shaikaamina947@gmail.com
-- **LinkedIn:** https://linkedin.com/in/aamina-shaik
-- **GitHub:** https://github.com/aamina-shaik
-
----
 
 ⭐ If you like this project, consider giving it a star!
